@@ -1,13 +1,25 @@
 # Gumroad license verificator with Node.js
 
 This app verify license key from a Gumroad product and return a response to a external app.  
-Webhooks reference: https://app.gumroad.com/ping
+API reference: https://app.gumroad.com/api#licenses
 
 ## Installation
 
 ```
 $ cd gumroad-nodejs
 $ npm install
+```
+
+## Configuration
+
+Rename .env_sample file to .env and replace value for each variable.
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` , start a development server:
+
+```
+$ npm run dev
 ```
 
 ## Webhook Requirements
