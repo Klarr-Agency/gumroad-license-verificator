@@ -1,7 +1,7 @@
-# Gumroad Node.js
+# Gumroad license verificator with Node.js
 
-This is a simple example on how to use webhooks from Gumroad also called Ping.
-https://app.gumroad.com/ping
+This app verify license key from a Gumroad product and return a response to a external app.  
+Webhooks reference: https://app.gumroad.com/ping
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ cd gumroad-nodejs
 $ npm install
 ```
 
-## Required
+## Webhook Requirements
 
 If you want to receive webhooks from Gumroad you need these two things.
 
